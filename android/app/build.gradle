@@ -38,6 +38,10 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+     externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'

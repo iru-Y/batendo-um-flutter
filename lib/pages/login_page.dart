@@ -61,8 +61,8 @@ class _LoginPageState extends State<LoginPage> {
                 onPressed: () {  },
                 child: Container(
                   alignment: Alignment.center,
-                  child: const Text("LOGIN"),
                   width: MediaQuery.of(context).size.width * 0.2,
+                  child: const Text("LOGIN"),
                 ),
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.02),
